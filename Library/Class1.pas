@@ -1,14 +1,13 @@
 ﻿namespace Library;
 
-interface
+uses
+  BaseLibrary;
 
 type
-  Class1 = public class
+  DerivedClass = public class(BaseClass)
   private
   protected
   public
   end;
-
-implementation
 
 end.
